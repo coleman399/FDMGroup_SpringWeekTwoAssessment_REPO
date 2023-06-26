@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WeekTwoAssessmentEmployeeApiApplication<week_two_assessment_employee_api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fdmgroup.week_two_assessment_employee_api.WeekTwoAssessmentEmployeeApiApplication",
+            "projectName": "week_two_assessment_employee_api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WeekTwoAssessmentEmployeeUiApplication<week_two_assessment_employee_ui>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fdmgroup.week_two_assessment_employee_ui.WeekTwoAssessmentEmployeeUiApplication",
+            "projectName": "week_two_assessment_employee_ui",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WeekTwoAssessmentEurekaServerApplication<week_two_assessment_euraka_server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fdmgroup.week_two_assessment_euraka_server.WeekTwoAssessmentEurekaServerApplication",
+            "projectName": "week_two_assessment_euraka_server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

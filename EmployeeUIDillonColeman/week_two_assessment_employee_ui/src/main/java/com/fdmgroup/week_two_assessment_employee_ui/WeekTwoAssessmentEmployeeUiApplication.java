@@ -14,6 +14,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 import feign.codec.ErrorDecoder;
 
+// need to refresh application after starting all apps at the same time, needs to be the last application started
 
 @SpringBootApplication
 @EnableEurekaClient
